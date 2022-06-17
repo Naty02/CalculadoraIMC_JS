@@ -1,0 +1,46 @@
+     body{
+        background-color: rgb(203, 44, 44);
+        font-family: Tahoma, Verdana, sans-serif;
+    }
+    .calculadora{
+        width: 310px;
+        height: 395px;
+        background-color: #03090a47;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%, -55%);
+        border-radius: 32px;
+    }
+    .titulo{
+        text-align: center;
+        font-family:sans-serif;
+        font-size: 30px;
+    }
+    .input{
+        position: relative;
+        margin-left: 50px;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        color: rgba(244, 244, 244, 0.884);
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    .itens{
+        position: relative;
+        margin: 10px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 18px;
+    }
+    #resultado{
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .destaque{
+        color: rgb(255, 255, 255);
+    }
